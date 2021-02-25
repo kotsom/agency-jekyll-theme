@@ -40,7 +40,7 @@
         <div class="intro-lead-in">{{ site.data.sitetext.header.title | markdownify }}</div>
 	  {%- endif -%}
 	  {%- if site.data.sitetext.header.text -%}
-        <div class="intro-text text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
+        <div class="intro-lead-in text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
 	  {%- endif -%}
 	  {%- if site.data.sitetext.header.button -%}
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button }}</a>
